@@ -1,0 +1,16 @@
+CC = gcc
+CFLAGS = -std=c17 -Wall -Wextra -O2
+
+TARGET = algorithm_visualizer
+SRC = main.c
+
+.PHONY: all clean
+
+all: $(TARGET)
+
+$(TARGET): $(SRC)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SRC)
+
+clean:
+	rm -f $(TARGET)
+
