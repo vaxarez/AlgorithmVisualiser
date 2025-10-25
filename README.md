@@ -54,4 +54,4 @@ You can add your own sorting algorithms by implementing the function and adding 
 
 ## License
 
-MIT License
+MIT License.
